@@ -1,23 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="mosy-frontend-war-2.0">
+        
+    <wb-module deploy-name="mosy-frontend-war-2.1">
+                
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+                
         <dependent-module archiveName="de.joergdev-mosy-frontend.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mosy-frontend/mosy-frontend">
+                        
             <dependency-type>uses</dependency-type>
+                    
         </dependent-module>
+                
         <dependent-module archiveName="de.joergdev-mosy-api.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mosy-api/mosy-api">
+                        
             <dependency-type>uses</dependency-type>
+                    
         </dependent-module>
+                
         <dependent-module archiveName="de.joergdev-mosy-api-client.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mosy-api-client/mosy-api-client">
+                        
             <dependency-type>uses</dependency-type>
+                    
         </dependent-module>
+                
         <dependent-module archiveName="de.joergdev-mosy-shared.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/mosy-shared/mosy-shared">
+                        
             <dependency-type>uses</dependency-type>
+                    
         </dependent-module>
+                
         <property name="context-root" value="mosy-frontend-war"/>
+                
         <property name="java-output-path" value="/mosy-frontend-war/target/classes"/>
+                
         <property name="component.inclusion.patterns" value="META-INF/**,WEB-INF/*.xml,WEB-INF/classes/**,WEB-INF/lib/de.joergdev-*.jar,WEB-INF/lib/jdom*.jar,WEB-INF/lib/net.sf.dozer-*.jar,WEB-INF/lib/org.primefaces-*.jar,WEB-INF/lib/org.apache.commons-commons-lang*.jar,WEB-INF/lib/commons-beanutils-*.jar"/>
+            
     </wb-module>
+    
 </project-modules>
