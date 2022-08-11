@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.joergdev</groupId>
 	<artifactId>mosy-frontend-war</artifactId>
-	<version>2.5</version>
+	<version>2.5.1</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -38,7 +38,7 @@
 					</archive>
 					<packagingIncludes>META-INF/**, WEB-INF/*.xml, WEB-INF/classes/**,
 						WEB-INF/lib/de.joergdev-*.jar,
-						WEB-INF/lib/jdom*.jar,
+						WEB-INF/lib/*jdom*.jar,
 						WEB-INF/lib/net.sf.dozer-*.jar,
 						WEB-INF/lib/org.primefaces-*.jar,
 						WEB-INF/lib/org.apache.commons-commons-lang*.jar,
