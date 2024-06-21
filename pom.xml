@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.joergdev</groupId>
 	<artifactId>mosy-frontend-war</artifactId>
-	<version>3.0.0</version>
+	<version>3.1.0</version>
 	<packaging>war</packaging>
 
 	<properties>
@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>de.joergdev</groupId>
 			<artifactId>mosy-frontend</artifactId>
-			<version>3.0.0</version>
+			<version>3.1.0</version>
 		</dependency>
 	</dependencies>
 
